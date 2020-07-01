@@ -1,0 +1,35 @@
+header.pageHeader {
+    width: 100%;
+    background: #fbf5f3;
+}
+
+header.pageHeader .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5em;
+}
+
+header.pageHeader svg{
+    height: 40px;
+    width: 40px;
+
+    transition: 0.2s;
+}
+
+header.pageHeader svg:hover {
+    filter: brightness(80%);
+}
+
+header.pageHeader .nav-link {
+    padding: 0 1em;
+    color: #5f2c14;
+    text-decoration: 1px solid #5f2c14;
+    text-align: center;
+
+    transition: 0.2s;
+}
+
+header.pageHeader .nav-link:hover {
+    opacity: 0.8;
+}

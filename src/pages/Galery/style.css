@@ -1,0 +1,71 @@
+.galery-content aside {
+    background: #532a14;
+    color: #fbf5f3;
+}
+
+.galery-content aside .menu {
+    position: absolute;
+    left: -1000px;
+    opacity: 0;
+}
+
+.galery-content aside div{
+    padding: 1.5em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 1em;
+}
+
+.galery-content aside div button{
+    padding-left: 10px;;
+    border: 0;
+    border-bottom: 1px solid #835a4c;
+    
+    background: #532a14;
+    color: #fbf5f3;
+    font-size: 1.2em;
+    transition: opacity 0.2s;
+    text-align: left;
+}
+
+.galery-content aside div button:hover {
+    opacity: 0.6;
+}
+
+.galery-content .galery h1 {
+    width: 35%;
+    padding-left: 15px;
+    border-bottom: 2px solid #1b0900;
+    margin: 1em 0;
+}
+
+.galery-content .galery ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+    text-align: center;
+
+    grid-gap: 3em;
+}
+
+.galery-content .galery ul li {
+    padding: 2em;
+    background:  #976249;
+    border-radius: 8px;
+}
+
+.galery-content .galery ul li img {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #1b0900;
+    border-radius: 8px;
+}
+
+.galery-content .galery ul li p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#galeryName, #galeryContent {
+    transition: opacity 0.5s;
+}

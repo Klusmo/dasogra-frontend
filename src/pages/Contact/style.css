@@ -1,0 +1,121 @@
+.contact-content  div{
+    margin: 0 auto;
+    margin-bottom: 1em;
+    max-width: 550px;
+}
+
+.contact-content h1 {
+    margin-bottom: 0.8em;
+}
+
+.contact-content .medias,
+.contact-content form {
+    background: #1b0900;
+    color: #fbf5f3;
+    padding: 1.2em;
+}
+
+.contact-content .medias h1{
+    margin-bottom: .8em;
+}
+
+.contact-content .medias ul{
+    padding: .5em;
+}
+
+.contact-content .medias li {
+    margin-bottom: 0.4em;
+    color: #cfada2;
+}
+
+.contact-content .medias .icons {
+    margin-right: 1em;
+}
+
+.contact-content .medias a{
+    color: #cfada2;
+    display: flex;
+    align-items: center;
+    transition: filter 0.2s;
+}
+
+.contact-content .medias a:hover{
+    filter: brightness(75%);
+}
+
+.contact-content form p {
+    font-size: 0.8em;
+    padding-bottom: 0.2em;
+}
+
+.contact-content form input,
+.contact-content form textarea {
+    width: 100%;
+    margin-bottom: 1em;
+
+    background: #fbf5f3;
+    color: #1b0900;
+    
+    padding: 1em;
+    font-size: 1.1em;
+    line-height: 1.5em;
+
+}
+.contact-content form input {
+    height: 24px;
+}
+
+.contact-content form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.contact-content form .submit {
+    display: flex;
+    align-items: center;
+}
+
+.contact-content form .submit .check {
+    margin-left: 1em;
+    opacity: 0;
+
+    transform: opacity 0.5s;
+}
+
+.contact-content form .submit .check .submited{
+    opacity: 1;
+}
+
+
+.contact-content form button {
+    width: 40%;
+    height: 40px;
+
+    border: 0;
+    border-radius: 4px;
+
+    background-color: #cfada2;
+    color: #1b0900;
+    
+    font-size: 1.1em;
+    font-weight: bold;
+    
+    transition: filter 0.2s;
+}
+
+.contact-content form button:hover {
+    filter: brightness(75%);
+}
+
+@media(min-width: 850px){
+    .contact-content {
+        display: flex;
+
+    }
+
+    .contact-content div + div {
+        margin-top: 15%;
+        margin-left: 2em;
+        width: 60%;
+    }
+}

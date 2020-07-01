@@ -1,0 +1,93 @@
+.top-section {
+    background-image: url("../../assets/bgd_img.png");
+    background-position: center;
+    background-size: cover;
+    color: #fbf5f3;
+    text-align: center;
+}
+
+.top-section .cover {
+    background-color: rgba(0,0 , 0, 0.4);
+}
+
+ .top-section svg {
+    height: auto;
+    max-width: 250px;
+    margin: 1.5em;
+}
+
+.slogan h1{
+    font-size: 1.8em;
+    padding: 1em 0;
+}
+
+.slogan p{
+    font-weight: thin;
+    padding: 0.5em 0;
+}
+
+.slogan .button {
+    color: #1b0900;
+    background: #fbf5f3;
+}
+
+.bottom-section{
+    text-align: center;
+    color: #1b0900;
+}
+
+.bottom-section h1 {
+    margin-bottom: 1.2em;
+}
+
+.bottom-section ul{
+    min-height: 200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    text-align: center;
+    grid-gap: 1.5em;
+}
+
+.bottom-section ul li {
+    margin: 0 auto;
+    margin-right: 2em;
+    padding: 1.2em;
+    height: 100%;
+    max-width: 200px;
+    border-radius: 8px;
+    background: #a57058;
+    align-self: center;
+}
+
+.bottom-section .carousel li img{
+    width: 100%;
+    height: 200px;
+    border: 1px solid #1b0900;
+    border-radius: 8px;
+}
+
+.bottom-section .carousel li p {
+    margin-top: 1em;
+}
+
+.bottom-section .button{
+    color: #1b0900;
+    background: #B78168;
+    border: 1px solid #1b0900;
+    max-width: 250px;
+}
+
+@media(min-width: 600px){
+    .top-section {
+        text-align: left;
+    }
+    
+    .top-section .flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+
+
